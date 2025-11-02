@@ -91,9 +91,9 @@ a{
 .navbar .searchbar .button2{
     background-color: #181818;
     color: white;
-    padding: 10px 20px 7px;
+    padding: 10px 20px 8px;
     font-size: 14px;
-    font-weight: 600px;
+    font-weight: 600;
     font-family: "Poppins", sans-serif;
     border: 1px solid black;
     border-top-right-radius: 4px;
@@ -157,6 +157,61 @@ a{
 
 .navbar .icons i:hover{
     color: rgb(247, 0, 0);
+}
+
+.navbar .icons .loginhover:hover .logincontent{
+    opacity: 1;
+}
+
+.navbar .icons .loginhover{
+    display: inline-block;
+}
+
+.navbar .icons .logincontent{
+    opacity: 0;
+    position: absolute;
+    top: 44px;
+    left: -120px;
+    background-color: white;
+    width: 300px;
+    height: 176px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.navbar .icons .logincontent button{
+    background-color: black;
+    color: white;
+    padding: 14px 94px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 6px;
+    margin: 28px 35px 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.navbar .icons .logincontent button:hover{
+    background-color: rgb(247, 0, 0);;
+}
+
+.navbar .icons .logincontent p{
+    color: rgb(0, 0, 0,0.5);
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.navbar .icons .logincontent a{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding-left: 114px;  
 }
 
 /* Navbar End */ 
