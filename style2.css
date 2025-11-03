@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1290px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Shop Navbar Start */ 
+
+.navbar{
+    padding: 26px 0px;  
+}
+
+.navbar .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo h1{
+    color: rgb(81, 45, 243);
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Caesar Dressing", system-ui;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.navbar .logo span{
+    color: rgb(118, 118, 118);
+}
+
+.navbar .list .list-content{
+    display: flex;
+    list-style-type: none;
+    column-gap: 50px;
+}
+
+.navbar .list .list-content li{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    transition: .3s;
+}
+
+.navbar .list .list-content li a{
+    color: black;
+    transition: .3s;
+}
+
+.navbar .list .list-content li a:hover{
+    color: rgb(247, 0, 0);
+}
+
+.navbar .list .list-content li i{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navbar .icon .icon-content{
+    display: flex;
+    list-style-type: none;
+    column-gap: 20px;
+}
+
+.navbar .icon .icon-content li{
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.navbar .icon .icon-content li:hover{
+    color: rgb(247, 0, 0);
+}
+
+.navbar .icon .loginhover:hover .logincontent{
+    display: block;
+}
+
+.navbar .icon .loginhover{
+    display: inline-block;
+}
+
+.navbar .icon .logincontent{
+    display: none;
+    position: absolute;
+    top: 38px;
+    right: -50px;
+    background-color: white;
+    width: 300px;
+    height: 176px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.navbar .icon .logincontent button{
+    background-color: black;
+    color: white;
+    padding: 14px 94px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 6px;
+    margin: 28px 35px 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.navbar .icon .logincontent button:hover{
+    background-color: rgb(247, 0, 0);
+}
+
+.navbar .icon .logincontent p{
+    color: rgb(0, 0, 0,0.5);
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.navbar .icon .logincontent a{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding-left: 114px;  
+}
+
+/* Shop Navbar End */ 
+/* Shop Banner Start */ 
+
+.banner{
+    background-image: url(./images/sliderelectronic2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+}
+
+.banner .banner-content{
+    padding: 224px 40px;
+}
+
+.banner .banner-content h1{
+    font-size: 72px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 8px;
+}
+
+.banner .banner-content a{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin-left: 120px;
+    transition: .3s;
+}
+
+.banner .banner-content span{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: rgba(0, 0, 0, 0.48);
+}
+
+.banner .banner-content a:hover{
+    color: rgb(247, 0, 0);
+}
+
+.banner .banner-content i{
+    font-size: 16px;
+}
+
+/* Shop Banner End */ 
+

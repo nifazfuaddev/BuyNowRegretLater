@@ -160,7 +160,7 @@ a{
 }
 
 .navbar .icons .loginhover:hover .logincontent{
-    opacity: 1;
+    display: block;
 }
 
 .navbar .icons .loginhover{
@@ -168,7 +168,7 @@ a{
 }
 
 .navbar .icons .logincontent{
-    opacity: 0;
+    display: none;
     position: absolute;
     top: 44px;
     left: -120px;
