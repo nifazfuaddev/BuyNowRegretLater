@@ -187,4 +187,134 @@ a{
 }
 
 /* Shop Banner End */ 
+/* Shop Option Start */ 
+
+.option{
+    margin: 74px 0px 28px; 
+}
+
+.option .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option .filter{
+    display: flex;
+    align-items: center;
+}
+
+.option .filter a{
+    background-color: transparent;
+    color: black;
+    padding: 6px 16px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: 2px solid rgba(0, 0, 0, 0.099);
+    border-radius: 6px;
+    transition: .3s;
+}
+
+.option .filter a:hover{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.option .filter a i{
+    font-size: 16px;
+    margin-right: 6px;
+}
+
+.option .filter p{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin-left: 32px;
+}
+
+.option .filter p i{
+    color: rgba(0, 0, 0, 0.459);
+    font-size: 18px;
+    margin-right: 6px;
+}
+
+.option .sort label{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin-right: 20px;
+}
+
+.option .sort select{
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: 2px solid rgba(0, 0, 0, 0.099);
+    border-radius: 6px;
+    transition: .3s;
+}
+
+.option .sort select:hover{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+/* Shop Option End */ 
+/* Shop Catalog Start */ 
+
+.catalog .box{
+    display: flex;
+    column-gap: 44px;
+    flex-wrap: wrap;
+    row-gap: 38px;
+}
+
+.catalog .item{ 
+    width: 289px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.catalog .item-content{
+    padding-top: 18px;
+    padding-left: 24px;
+    padding-bottom: 30px;
+    background-color: rgb(248, 248, 248);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.catalog .item-content h3{
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 6px;
+    transition: .2s;
+}
+
+.catalog .item-content h3:hover{
+    color: rgb(247, 0, 0);
+}
+
+.catalog .item-content p{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.catalog .itemimg img{
+    width: 100%;
+    padding: 0px 0px;
+}
+
+.catalog .itemimg #img1{
+    width: 95%;
+    padding: 35px 0px 34px;
+}
+
+
+/* Shop Catalog End */ 
 
