@@ -305,6 +305,13 @@ a{
     font-size: 16px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
+    transition: .2s;
+}
+
+.deal .deal-top .button-group button:hover{
+    background-color: #FCEAEA;
+    color: #E45497;
+    border-color: #E45497;
 }
 
 .deal .deal-bottom{
@@ -313,21 +320,78 @@ a{
 }
 
 .deal .deal-bottom .dealbox{
-    background-color: #ff0000;
+    background-color: #fbf6f600;
     width: 245px;
     height: 435px;
 }
 
 .deal .deal-bottom .dealbox .item{
-    background-color: #000000;
+    background-color: #e8e6e6fb;
     width: 245px;
     height: 310px;
+    border-radius: 10px;
 }
 
 .deal .deal-bottom .dealbox .deal-content{
-    background-color: #2b4de3;
+    background-color: #ffffff;
     width: 245px;
-    height: 125px;
+    height: 220px; 
 }
 
-/* Banner End */ 
+.deal-content i{
+    color: #F0A750;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+
+.deal-content #gray{
+    color: gainsboro;
+}
+
+.deal-content del{
+    padding-right: 6px;
+    color: #b7b7b7;
+}
+
+.deal-content p{
+    display: inline-block;
+    color: #b7b7b7;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.deal-content span{
+    color: #000000;
+}
+
+.deal-content #side{
+    margin-left: 86px;
+}
+
+.deal-content h4{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 32px;  
+    cursor: pointer;
+    transition: .3s;   
+}
+
+.deal-content h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 5px;   
+}
+
+.deal-content h4:hover{
+    color: red;
+}
+.item img{
+    width: 100%;
+    background-color: #e8e6e6;
+    border-radius: 10px; 
+}
+
+/* Deal End */ 
