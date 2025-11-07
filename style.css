@@ -395,3 +395,29 @@ a{
 }
 
 /* Deal End */ 
+/* Special Start */ 
+
+.special{
+    padding: 100px 0px;
+}
+
+.special .box{
+    display: flex;
+    column-gap: 36px;
+}
+
+.special .item{
+    position: relative;
+    background-color: #000000;
+    width: 406px;
+    height: 270px;
+    border-radius: 11px;
+}
+
+.special .item .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Special End */ 
