@@ -520,3 +520,31 @@ a{
     border-radius: 50%;
 }
 /* Featured End */ 
+/* Features Start */ 
+
+.features{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 40px;
+     background: #fff;
+     text-align: center;
+}
+.feature-item{
+    width: 20%;
+}
+.feature-item.icon{
+    font-size: 30px;
+    display: block;
+    margin-bottom: 10px;
+}
+.feature-item.h3{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.feature-item.p{
+    font-size: 14px;
+    color: #555;
+}
+
+/* Features End */ 
