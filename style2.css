@@ -297,10 +297,77 @@ a{
     color: rgb(247, 0, 0);
 }
 
+.catalog .item-content i{
+    padding: 4px 0px 6px;
+    color: #F0A750;
+    font-size: 15px;
+}
+
 .catalog .item-content p{
     font-size: 18px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
+}
+
+.catalog .item .itemimg{
+    position: relative;
+    overflow: hidden;
+}
+
+.catalog .item .itemimg .overlay{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 100%;
+    left: 0;   
+    transition: .4s;
+}
+
+.catalog .item .itemimg:hover .overlay{
+    top: 0;
+}
+
+.catalog .item .itemimg .overlayicon{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}
+
+.catalog .item .itemimg .overlay a{
+    background-color: white;
+    padding: 12px 64px;
+    border-radius: 30px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    bottom: 16px;
+    left: 34px;
+    transition: .3s;
+}
+
+.catalog .item .itemimg .overlay i{
+    background-color: #f4f4f4;
+    color: black;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.catalog .item .itemimg .overlay a:hover{
+    background-color: black;
+    color: white;
+}
+
+.catalog .item .itemimg .overlay i:hover{
+    background-color: black;
+    color: white;
 }
 
 .catalog .itemimg img{
@@ -313,5 +380,249 @@ a{
     padding: 35px 0px 34px;
 }
 
+.catalogbutton{
+    padding: 48px 0px 66px;
+    position: relative;
+    
+}
+
+.catalogbutton .buttoncollection{
+    margin: 0px 553px;
+}
+
+.catalogbutton a{
+    background-color: transparent;
+    padding: 8px 16px;
+    border: 1px solid rgba(148, 148, 148, 0.459);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    transition: .3s;
+}
+
+.catalogbutton a:hover{
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+.catalogbutton #angle{
+    padding: 10px 13px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
 /* Shop Catalog End */ 
+/* Footer Start */ 
+
+.footer::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+
+.footer{
+    width: 100%;
+    padding: 64px 0px;
+    position: relative;
+}
+
+.footer .box{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.footer .content1{    
+    width: 330px;
+}
+
+.footer .content2{     
+    width: 180px;  
+}
+
+.footer .content3{      
+    width: 220px; 
+}
+
+.footer .content4{
+    width: 430px;   
+}
+
+.footer .content1 h2{
+    color: rgb(81, 45, 243);
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Caesar Dressing", system-ui;
+    cursor: pointer;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer .content1 span{
+    color: rgb(118, 118, 118);
+}
+
+.footer .content1 p{
+   color: #929292;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif; 
+}
+
+.footer .content1 a{
+    display: inline-block;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif; 
+    padding: 6px 0px 14px; 
+    transition: .3s;
+}
+
+.footer .content1 a:hover{
+    color: #F03E3E;
+}
+
+.footer .content1 #phone{
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+.footer .content1 i{
+    margin-right: 10px;
+    color: #000000;
+}
+
+.footer .content1 #arrow{
+    margin-left: 4px;
+    color: #000000;
+}
+
+.footer .content1 .social-icon i{
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 10px 8px;
+    font-size: 20px;
+}
+
+.footer .content2 h3{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 10px;
+}
+
+.footer .content2 p{
+   color: #929292;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif; 
+    padding: 4px 0px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.footer .content2 p:hover{
+    color: rgb(247, 0, 0);
+}
+
+.footer .content3 h3{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;   
+    padding-bottom: 10px;
+}
+
+.footer .content3 p{
+   color: #929292;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif; 
+    padding: 4px 0px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.footer .content3 p:hover{
+    color: rgb(247, 0, 0);
+}
+
+.footer .content4 h3{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 10px;
+}
+
+.footer .content4 p{
+   color: #929292;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif; 
+    padding: 4px 0px;
+}
+
+.footer .content4 label{
+    color: #929292;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif; 
+    padding: 4px 0px;
+    cursor: pointer;
+}
+
+.footer .content4 label u{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif; 
+    padding: 4px 0px;
+    transition: .4s;
+}
+
+.footer .content4 label u:hover{
+    color: rgb(247, 0, 0);
+}
+
+.footer .content4 .input{
+   display: block;
+   margin: 14px 0px;
+}
+
+.footer .content4 #email{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    width: 80%;
+    padding: 20px 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #929292;
+    border: 1px solid #929292;
+}
+
+.footer .content4 button{
+  padding: 20px 18px;
+  border-radius: 18px;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  border: 1px solid #000000;
+  transition: .3s; 
+} 
+
+.footer .content4 button:hover{
+  background-color: transparent;
+  color: #000000;
+} 
+
+/* Footer End */
 
