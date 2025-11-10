@@ -456,7 +456,7 @@ a{
 /* Special Start */ 
 
 .special{
-    padding: 100px 0px;
+    margin: 100px 0px;
 }
 
 .special .box{
@@ -478,7 +478,90 @@ a{
     top: 0;
 }
 
-/* Special End */ 
+.special .item .overlay h1{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding: 34px 30px 18px;
+}
+
+.special .item .overlay p{
+    width: 258px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding: 0px 30px 18px;
+}
+
+.special .item .overlay .Shop{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding: 0px 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.special .item .overlay .Shop:hover{
+    color: rgb(255, 50, 50);
+}
+
+/* Special End */
+
+/*Super Start*/ 
+
+.super-sale{
+    background-color: #fbc9c9;
+    padding: 36px 100px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 44px;
+}
+
+.super-sale .sale{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.super-sale .coupon{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    border: 3px dashed rgb(240, 121, 121);
+    border-radius: 3px;
+    padding: 3px 9px;
+    margin: 0px 14px;
+    color: #e71313;
+    cursor: pointer;
+}
+
+.super-sale .discount{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+
+.super-sale .discover{
+    background-color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-left: 14px;
+    padding: 10px 20px;  
+    transition: .3s; 
+}
+
+.super-sale .discover:hover{
+    background-color: white;
+    color: black;
+}
+
+/*Super End*/  
 /* Featured Start */ 
 
 .featured{
